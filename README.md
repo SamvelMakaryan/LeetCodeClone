@@ -24,5 +24,6 @@ This program is simple version of LeetCode, which supports coding in 4 languages
 5. use it.
 
 ### example
-
+    
+![Screenshot from 2023-06-04 17-35-17](https://github.com/SamvelMakaryan/LeetCodeClone/assets/123547362/9ae86b52-88f7-40ec-b15f-c9cf20511b0a)
 
