@@ -42,7 +42,6 @@ function isFileEmpty(filePath) {
     const fileStats = fs.statSync(filePath);
     return fileStats.size === 0;
   } catch (error) {
-    // Handle file not found or other errors
     console.error('Error accessing the file:', error);
     return false;
   }
