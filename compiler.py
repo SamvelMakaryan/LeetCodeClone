@@ -80,16 +80,14 @@ def run_program(language, mode):
 
     try:
         result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-        with open('RunTime.txt', 'a') as f:
-            f.write("Runtime Error:\n")
-            f.write(result.stdout)
+        with open('RunTime.txt', 'w') as f:
+            f.write(result.stderr)
     except subprocess.CalledProcessError as e:
         print(f"Error: {e}")
 if __name__ == '__main__':
     if len(sys.argv) != 3:
         print("Usage: python compiler.py <language> <mode>")
         sys.exit(1)
-
     language = sys.argv[1]
     mode = sys.argv[2]
     run_program(language, mode)

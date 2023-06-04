@@ -13,14 +13,17 @@ body {
 }
 .Description {
 	border: 2px ridge #00994d;
+  font-family:sans-serif ;
+  font-style: italic;
 }
 h1 {
   text-align: center;
   margin-top: 0;
 }
 
-.form-group {
+.form-group, .Problem {
   margin-bottom: 20px;
+  font-size: 22px;
 }
 
 label {

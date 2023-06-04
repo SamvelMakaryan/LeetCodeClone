@@ -1,4 +1,5 @@
-function foo(a, b) {
-    return a + b;
+function twoSum(num1, num2) {
+	return num2 + num1
 }
-module.exports = {foo};
+
+module.exports = {twoSum: twoSum};

@@ -1,2 +1,3 @@
-Passed
-Runtime - 2 ms
+The test case for Args: 1 and 2 is not correct
+expected: 3
+Case: 0/160 not passed
